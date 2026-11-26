@@ -5,7 +5,7 @@
 </div>
 <br>
 
-<p align="center"><img src="https://raw.githubusercontent.com/hiddify/hiddify.com/main/docs/assets/hiddify-app-logo.svg" width=56% alt="Hiddify" /></p>
+<p align="center"><strong>AetherLink Mobile</strong></p>
 <br>
 
 <div align="center">
@@ -15,9 +15,19 @@
 
 </div>
 
-## What is the Hiddify app?
+## AetherLink Mobile
 
-The Hiddify app is a free, open-source and ad-free proxy and VPN client for **Android, iOS, Windows, macOS and Linux**. It is built on [sing-box](https://github.com/SagerNet/sing-box) and works with almost every protocol and subscription format, so you can use it with any proxy panel, including [Hiddify Manager](https://github.com/hiddify/Hiddify-Manager).
+This is a modified, personal-use fork of [Hiddify App](https://github.com/hiddify/hiddify-app), retaining its VPN and per-app routing foundation while AetherLink integration is developed. It is not an official Hiddify build and is not published to an app store.
+
+### Upstream and license
+
+- Upstream project: [hiddify/hiddify-app](https://github.com/hiddify/hiddify-app)
+- License: [Hiddify Extended GPL v3](LICENSE.md), including its additional conditions
+- This fork's releases are built by GitHub Actions from this public fork. Source changes and release tags are kept in this repository.
+- Changes: the fork is renamed for personal AetherLink work; protocol and UI integration is in progress. Release notes identify the exact changes included in each build.
+- Non-commercial personal use only. This fork is not endorsed by Hiddify.
+
+Do not publish this application to an app store or use a name/interface that resembles Hiddify. Derivative changes must remain available under the same license and as a public fork of the upstream repository.
 
 <div align=center>
 <img width=90% alt="Hiddify app" src="docs/demo-en.webp">
