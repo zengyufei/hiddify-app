@@ -37,6 +37,8 @@ jobs:
           cache: true
 
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
 
       - name: Build release APKs
         run: |
